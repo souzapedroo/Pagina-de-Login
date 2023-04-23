@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login e Registro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container" id="container">
+
+        <div class="formulario-container registro-container">
+            <form action="#">
+                <h1>Registre-se Aqui.</h1>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="E-mail">
+                <input type="password" placeholder="Senha">
+                <button>Registrar</button>
+                <span>Ou use sua conta</span>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="lni lni-facebook-fill"></i></a>
+                    <a href="#" class="social"><i class="lni lni-google"></i></a>
+                    <a href="#" class="social"><i class="lni lni-linkedin-original"></i></a>
+                    <a href="#" class="social"><i class="lni lni-twitter-original"></i></a>
+                </div>
+            </form>
+        </div>
+
+        <div class="formulario-container login-container">
+            <form action="#">
+                <h1>Entre Aqui</h1>
+                <input type="email" placeholder="E-mail">
+                <input type="password" placeholder="Senha">
+                <div class="checkbox">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label>Lembrar</label>
+                </div>
+                <div class="pass-link">
+                    <a href="#">Esqueceu senha?</a>
+                </div>
+                <button>Entrar</button>
+                <span>Ou use sua conta</span>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="lni lni-facebook-fill"></i></a>
+                    <a href="#" class="social"><i class="lni lni-google"></i></a>
+                    <a href="#" class="social"><i class="lni lni-linkedin-original"></i></a>
+                    <a href="#" class="social"><i class="lni lni-twitter-original"></i></a>
+                </div>
+            </form>
+        </div>
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1 class="title">Salve Mano</h1>
+                    <p>Se tiver conta, Entre aqui e se divirta-se.</p>
+                    <button class="ghost" id="login">Login
+                        <i class="lni lni-arrow-left login"></i>
+                    </button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1 class="title">Começe a sua <br> jornada agora</h1>
+                    <p>Se você não tiver conta, entre aqui e começe a sua jornada</p>
+                    <button class="ghost" id="register">Registrar-se
+                        <i class="lni lni-arrow-right register"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
